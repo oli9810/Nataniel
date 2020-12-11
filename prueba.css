@@ -5,7 +5,7 @@ body{
 .nube{
     width: 150px;
     height: 50px;
-    background-image: url(img/nube2.jpg);
+    background-image: url(img/nubesita.png);
     background-size: 100% 100%;
     position: absolute;
     animation: movimiento1 10s infinite;
@@ -24,7 +24,7 @@ body{
 .nube2{
     width: 120px;
     height: 50px;
-    background-image: url(img/nube3.png);
+    background-image: url(img/nubesota.png);
     background-size: 100% 100%;
     position: absolute;
     animation: movimiento3 13s infinite;
@@ -42,7 +42,7 @@ body{
 .nube3 {
     width: 150px;
     height: 50px;
-    background-image: url(img/nube3.png);
+    background-image: url(img/nubesota.png);
     background-size: 100% 100%;
     position: absolute;
     animation: movimiento2 8s infinite;
