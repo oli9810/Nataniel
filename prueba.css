@@ -1,0 +1,122 @@
+body{
+    
+    overflow: hidden;
+}
+.nube{
+    width: 150px;
+    height: 50px;
+    background-image: url(img/nube2.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    animation: movimiento1 10s infinite;
+}
+
+@keyframes movimiento1 {
+    from{
+        margin-left: 29%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
+
+.nube2{
+    width: 120px;
+    height: 50px;
+    background-image: url(img/nube3.png);
+    background-size: 100% 100%;
+    position: absolute;
+    animation: movimiento3 13s infinite;
+    margin-top: 70px;
+}
+@keyframes movimiento3 {
+    from {
+       margin-left: -3%;
+    }
+
+    to {
+       margin-left: 30%;
+    }
+}
+.nube3 {
+    width: 150px;
+    height: 50px;
+    background-image: url(img/nube3.png);
+    background-size: 100% 100%;
+    position: absolute;
+    animation: movimiento2 8s infinite;
+    margin-top: 190px;
+}
+@keyframes movimiento2 {
+    from {
+       margin-left: 8%;
+    }
+
+    to {
+       margin-left: 0%;
+    }
+}
+
+.inicio{
+    margin-left: 30%;
+    width: 40%;
+    height: 600px;
+    background-image: url(img/granja2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+}
+.info{
+    width: 50%;
+    height: 30%;
+    background-color: rgb(250, 223, 173);
+    margin-top: 40%;
+}
+
+img{
+    width: 20%;
+    height: 20%;
+    margin-left: 33%;
+    margin-top: 22%;
+    border-radius: 50px;
+}
+
+@media (max-width: 700px) {
+    body{
+        margin: 0;
+    }
+    .inicio{
+        width: 100%;
+        margin: 0;
+    }
+    .info{
+        width: 55%;
+        margin-top: 73%;
+    }
+    img{
+        width: 45%;
+        margin-left: 55%;
+        margin-top: 3%;
+    }
+    .nube3{
+        margin-top: 150px;
+    }
+    @keyframes movimiento2 {
+        from {
+            margin-left: 64%;
+        }
+
+        to {
+            margin-left: 0%;
+        }
+    }
+    @keyframes movimiento3 {
+        from {
+            margin-left: -3%;
+        }
+
+        to {
+            margin-left: 30%;
+        }
+    }
+}
+ 
