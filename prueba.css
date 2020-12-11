@@ -141,5 +141,8 @@ img{
     #cont{
         margin-top: -10px;
     }
+    a{
+        text-align: center;
+    }
 }
  
