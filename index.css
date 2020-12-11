@@ -4,6 +4,13 @@ body{
     background-color: burlywood;
 }
 
+.link{
+    width: 30%;
+    margin-left: 40%;
+    font-style: italic;
+    background-color: burlywood;
+}
+
 .natsito {
     margin-top: 5%;
     margin-left: 35%;
@@ -14,6 +21,10 @@ body{
 img{
     width: 100%;
 
+}
+
+.letra{
+    text-align: center;
 }
 h1{
     text-align: center;
